@@ -7,13 +7,24 @@ body {
 
 header {
 
+    display: grid;
+    grid-template-columns: 45% 50%;
     background-color: antiquewhite;
+    text-decoration: none;
 
 }
 
 nav {
 
+    display: inline-block;
+    width: 80%;
     background-color: darkgray;
+
+}
+
+nav img {
+
+    width: 10%;
 
 }
 
@@ -30,12 +41,12 @@ footer {
 
 }
 
-li {
+/*li {
 
     display: grid;
     width: 75%;
 
-}
+}*/
 
 h1 {
 
@@ -48,5 +59,36 @@ h1 {
 p {
 
     line-height: 115%;
+
+}
+
+.grid{
+
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 30% 30% 30%;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.grid img {
+
+    width: 80%;
+
+
+}
+
+.dog{
+
+    width: 50%;
+
+}
+
+.skip {
+
+    font-size: small;
+    text-decoration: none;
+    color: black;
 
 }
